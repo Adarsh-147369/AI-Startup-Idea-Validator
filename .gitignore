@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+dist/
+*.db
+/tmp/*.pdf
+.DS_Store
+startup_ideas.db
+*.log
