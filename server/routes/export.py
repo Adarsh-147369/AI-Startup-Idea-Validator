@@ -7,7 +7,7 @@ from database import SessionLocal
 from models import StartupIdea
 from pdf_service import generate_pdf_report
 
-router = APIRouter(prefix="/export", tags=["export"])
+router = APIRouter(prefix="/api/export", tags=["export"])
 
 
 def get_db():

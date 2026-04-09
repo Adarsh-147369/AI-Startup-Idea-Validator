@@ -18,10 +18,16 @@ export default function Home() {
     setLoading(true)
 
     try {
+      console.log('Submitting to /api/ideas with data:', formData)
       const response = await api.post('/ideas', formData)
+      console.log('Response received:', response.data)
       navigate(`/report/${response.data.id}`)
     } catch (err) {
-      setError(err.response?.data?.detail || 'Failed to analyze idea. Please try again.')
+      console.error('Error submitting idea:', err)
+      console.error('Error response:', err.response)
+      console.error('Error message:', err.message)
+      const errorMessage = err.response?.data?.detail || err.message || 'Failed to analyze idea. Please try again.'
+      setError(errorMessage)
     } finally {
       setLoading(false)
     }

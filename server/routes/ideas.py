@@ -8,7 +8,7 @@ from models import StartupIdea
 from schemas import IdeaCreate, IdeaResponse
 from ai_service import validate_idea
 
-router = APIRouter(prefix="/ideas", tags=["ideas"])
+router = APIRouter(prefix="/api/ideas", tags=["ideas"])
 
 
 def get_db():
