@@ -1,0 +1,121 @@
+═══════════════════════════════════════════════════════════════
+  RENDER DEPLOYMENT - QUICK REFERENCE CARD
+═══════════════════════════════════════════════════════════════
+
+🚀 DEPLOYMENT COMMANDS (Copy These Exactly)
+───────────────────────────────────────────────────────────────
+
+Build Command:
+cd client && npm install && npm run build && cd ../server && pip install -r requirements.txt
+
+Start Command:
+cd server && uvicorn main:app --host 0.0.0.0 --port $PORT
+
+═══════════════════════════════════════════════════════════════
+
+🔑 ENVIRONMENT VARIABLE (Critical!)
+───────────────────────────────────────────────────────────────
+
+Key: OPENROUTER_API_KEY
+Value: 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
+
+═══════════════════════════════════════════════════════════════
+
+⚙️ CONFIGURATION SETTINGS
+───────────────────────────────────────────────────────────────
+
+Name: ai-startup-validator (or your choice)
+Runtime: Python 3
+Branch: main
+Root Directory: (leave empty)
+Instance Type: Free
+
+═══════════════════════════════════════════════════════════════
+
+📋 DEPLOYMENT STEPS (5 Minutes)
+───────────────────────────────────────────────────────────────
+
+1. Go to https://render.com
+2. Sign in with GitHub
+3. Click "New +" → "Web Service"
+4. Connect "AI-Startup-Idea-Validator" repo
+5. Fill in configuration (see above)
+6. Add environment variable (see above)
+7. Click "Create Web Service"
+8. Wait 5-10 minutes
+9. Click your app URL
+10. Test it!
+
+═══════════════════════════════════════════════════════════════
+
+✅ TEST YOUR DEPLOYED APP
+───────────────────────────────────────────────────────────────
+
+1. Open: https://your-app.onrender.com
+2. Enter idea name: "EcoDelivery"
+3. Enter description: "Sustainable delivery using electric vehicles"
+4. Click "Analyze My Idea with AI"
+5. Wait 5-10 seconds
+6. View full report!
+
+═══════════════════════════════════════════════════════════════
+
+🌐 YOUR APP URLS
+───────────────────────────────────────────────────────────────
+
+Main App: https://your-app-name.onrender.com
+Dashboard: https://your-app-name.onrender.com/dashboard
+API Health: https://your-app-name.onrender.com/api/health
+API Docs: https://your-app-name.onrender.com/api/docs
+
+═══════════════════════════════════════════════════════════════
+
+⚠️ FREE TIER NOTES
+───────────────────────────────────────────────────────────────
+
+- App sleeps after 15 minutes of inactivity
+- First request after sleep takes 30-60 seconds
+- Subsequent requests are fast
+- 750 hours/month free
+- Auto-deploys on every GitHub push
+
+═══════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING
+───────────────────────────────────────────────────────────────
+
+Build Failed?
+→ Check Logs tab for errors
+→ Verify build command is correct
+→ Check all files are in GitHub
+
+App Not Working?
+→ Check environment variable is set
+→ Verify API key is correct
+→ Check Logs tab for runtime errors
+
+Slow First Load?
+→ Normal for free tier (app was sleeping)
+→ Wait 30-60 seconds
+→ Subsequent loads are fast
+
+═══════════════════════════════════════════════════════════════
+
+📚 DOCUMENTATION
+───────────────────────────────────────────────────────────────
+
+Full Guide: RENDER_DEPLOYMENT_GUIDE.md
+Visual Steps: RENDER_STEPS_VISUAL.md
+Checklist: DEPLOYMENT_CHECKLIST.md
+
+═══════════════════════════════════════════════════════════════
+
+💰 COST: FREE (0 USD/month)
+⏱️ TIME: 10-15 minutes
+🎯 DIFFICULTY: Easy
+
+═══════════════════════════════════════════════════════════════
+
+🎉 YOU GOT THIS! 🚀
+
+═══════════════════════════════════════════════════════════════
