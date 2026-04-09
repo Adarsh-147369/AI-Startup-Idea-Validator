@@ -14,7 +14,7 @@ An AI-powered tool that validates startup ideas with just a name and description
 
 ## Tech Stack
 
-- **Backend:** FastAPI, SQLAlchemy, SQLite, Uvicorn, ReportLab, python-dotenv
+- **Backend:** FastAPI, SQLite, Uvicorn, ReportLab, python-dotenv
 - **Frontend:** React + Vite, Tailwind CSS, React Router DOM, Axios
 - **AI:** OpenRouter (GPT-3.5 Turbo)
 
