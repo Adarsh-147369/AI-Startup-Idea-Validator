@@ -84,21 +84,6 @@ Get a free API key from [OpenRouter](https://openrouter.ai/)
 5. **Export PDF** - Download professional reports
 6. **Delete** - Remove ideas you don't need
 
-## Example Input
-
-**Idea Name:** EcoDelivery
-
-**Idea Description:** A sustainable last-mile delivery service using electric vehicles and bicycles for urban areas. We partner with local restaurants and stores to provide carbon-neutral delivery options to environmentally conscious consumers.
-
-**AI Will Generate:**
-- Problem: High carbon emissions from traditional delivery services
-- Customer: Environmentally conscious urban consumers aged 25-45
-- Market: $50B last-mile delivery market with 15% annual growth
-- Competitors: UberEats, DoorDash, Postmates
-- Tech Stack: React Native, Node.js, PostgreSQL, Google Maps API
-- Risk Level: Medium
-- Profitability Score: 72/100
-
 ## API Endpoints
 
 | Method | Endpoint | Description |
